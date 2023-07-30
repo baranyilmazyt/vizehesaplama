@@ -55,7 +55,7 @@ const temizle = () => {
     parseInt(document.getElementById("vize").value = '');
     parseInt(document.getElementById("final").value = '');
    
-    document.body.style.background = "linear-gradient(112deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%)"
+    document.body.style.backgroundColor = "rgb(27, 27, 91)"
     document.getElementById("sonuc").textContent = ""
     document.getElementsByClassName("sonuc")[0].style.display = "none";
     document.getElementsByClassName("temizle")[0].style.display = "none"
